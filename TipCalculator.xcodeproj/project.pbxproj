@@ -12,6 +12,7 @@
 		F96F37DB19845A3A00A8DA20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F96F37D919845A3A00A8DA20 /* Main.storyboard */; };
 		F96F37DD19845A3A00A8DA20 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F96F37DC19845A3A00A8DA20 /* Images.xcassets */; };
 		F96F37E919845A3B00A8DA20 /* TipCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96F37E819845A3B00A8DA20 /* TipCalculatorTests.swift */; };
+		F96F37F319845AB300A8DA20 /* TipCalculatorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96F37F219845AB300A8DA20 /* TipCalculatorModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,7 @@
 		F96F37E219845A3B00A8DA20 /* TipCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F96F37E719845A3B00A8DA20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F96F37E819845A3B00A8DA20 /* TipCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCalculatorTests.swift; sourceTree = "<group>"; };
+		F96F37F219845AB300A8DA20 /* TipCalculatorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipCalculatorModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				F96F37D919845A3A00A8DA20 /* Main.storyboard */,
 				F96F37DC19845A3A00A8DA20 /* Images.xcassets */,
 				F96F37D319845A3A00A8DA20 /* Supporting Files */,
+				F96F37F219845AB300A8DA20 /* TipCalculatorModel.swift */,
 			);
 			path = TipCalculator;
 			sourceTree = "<group>";
@@ -208,6 +211,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F96F37F319845AB300A8DA20 /* TipCalculatorModel.swift in Sources */,
 				F96F37D819845A3A00A8DA20 /* ViewController.swift in Sources */,
 				F96F37D619845A3A00A8DA20 /* AppDelegate.swift in Sources */,
 			);
